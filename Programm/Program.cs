@@ -1,8 +1,9 @@
-﻿Console.WriteLine("Введите любые 5 слов через нажатие Enter:");
-string[] stringArray = new string[5];
-int size = 5;
+﻿
+string[] stringArray = new string[4];
+int size = stringArray.Length;
 string[] stringArraySort = new string[size];
 
+Console.WriteLine("Введите любые 4 слова (набор букв, символов) через нажатие Enter:");
 for (int i = 0; i < stringArray.Length; i++)
 {
     stringArray[i] = Console.ReadLine();
