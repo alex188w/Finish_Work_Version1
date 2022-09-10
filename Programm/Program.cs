@@ -1,5 +1,4 @@
-﻿
-string[] stringArray = new string[4];
+﻿string[] stringArray = new string[4];
 int size = stringArray.Length;
 string[] stringArraySort = new string[size];
 
